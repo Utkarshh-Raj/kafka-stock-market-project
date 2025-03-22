@@ -21,10 +21,13 @@ Streaming Framework: Apache Kafka
 
 ## Architecture
 The system architecture consists of:
-1. **📡 Data Ingestion**: Real-time stock market data is streamed using Apache Kafka.
-2. **💾 Storage**: The data is stored in AWS S3 for further processing.
-3. **🔧 Processing & Cataloging**: AWS Glue is used to transform and catalog data.
-4. **📈 Querying & Analysis**: AWS Athena enables querying of processed stock data.
+1. ** Data Ingestion**: Real-time stock market data is streamed using Apache Kafka.
+2. ** Storage**: The data is stored in AWS S3 for further processing.
+3. ** Processing & Cataloging**: AWS Glue is used to transform and catalog data.
+4. ** Querying & Analysis**: AWS Athena enables querying of processed stock data.
+
+### Architecture Diagram
+![Architecture Diagram](diagram.png)
 
 ---
 
@@ -50,9 +53,9 @@ python stream_stock_data.py
 
 ---
 
-## 🎯 Usage
-- 📊 Real-time monitoring and analysis of stock market data.
-- ⚡ Efficient storage and retrieval of streaming data.
-- 🔄 Scalable architecture using cloud-based services.
+## Usage
+- Real-time monitoring and analysis of stock market data.
+- Efficient storage and retrieval of streaming data.
+- Scalable architecture using cloud-based services.
 
 ---
